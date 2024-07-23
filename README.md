@@ -7,15 +7,10 @@ SUBJECT     VIRTUALIZATION AND CLOUD COMPUTING
 
 Objective - Create a Docker image of Web Application and Deploy and Run inside the container
 
-There are two options to build container applications
-1. Build the project and later containerize it
-2. Build the project inside the the container
-
 In This assignment we will build and deploy a Django Application inside the container
 
 Assignment Requirements
 1. Git-Hub Repos
-2. Youtube Video
 
 Software Pre-Requisites
 1. Docker Desktop
