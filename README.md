@@ -1,6 +1,6 @@
 # dockerAssignment
 #This is assignment project for virtualization and cloud computing
-AUTHOR -    VIDYUT BHASKAR
+AUTHOR -    Priyank Bhardwaj
 ROLL -      G23AI2128
 COURSE-     PGDDE 2024-25
 SUBJECT     VIRTUALIZATION AND CLOUD COMPUTING
@@ -11,7 +11,7 @@ There are two options to build container applications
 1. Build the project and later containerize it
 2. Build the project inside the the container
 
-In This assignment we will option2 to build and deploy a DjangoApplication inside the container
+In This assignment we will build and deploy a Django Application inside the container
 
 Assignment Requirements
 1. Git-Hub Repos
@@ -30,5 +30,3 @@ Steps
 5. run container docker-compose up
 6. Check container name in powershell docker ps
 7. Start new app command  'docker exec dockerassignment-web-1 python manage.py startapp <app-name>
-
-ex - let us change the response of the WelcomeUser App
