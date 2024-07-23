@@ -21,7 +21,7 @@ Steps
 1. Create docker-compose.yml - store container configuration
 2. Create Dockerfile - store image information
 3. Create requirements.txt - provide Django server version requirements
-4. run command:  'docker-compose run web django-admin startproject myTestProject .' -- this will build project in the root folder
-5. run container docker-compose up
+4. run container by using: docker-compose up
 6. Check container name in powershell docker ps
-7. Start new app command  'docker exec dockerassignment-web-1 python manage.py startapp <app-name>
+7. If due to any reason container stops, use: docker start "container name"
+8. Go to browser and use localhost:8000/WelcomeUser
